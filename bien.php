@@ -24,8 +24,8 @@ echo $a;
 $a++;
 }
 
-myTest1();
-myTest1();
-myTest1();
+myTest1();//kq 1
+myTest1(); //kq 2
+myTest1(); //kq 3
 
 ?>
