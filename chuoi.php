@@ -1,5 +1,7 @@
 <?php
 $str="Hello words";
+// in hoa ký tự đầu tiên
+echo ucfirst($str);
 // xác định độ dài của chuỗi
 echo strlen($str); // outputs 11
 // đếm số từ trong chuỗi
