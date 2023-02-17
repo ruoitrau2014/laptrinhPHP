@@ -30,4 +30,9 @@ var_dump(is_numeric($x));
 // định nghĩa hằng số constant
 define("GREETING", "Welcome to W3Schools.com!");
 echo GREETING;
+
+$x = 23465.768;
+//Casting Strings and Floats to Integers
+$int_cast = (int)$x;
+echo $int_cast;
 ?>
